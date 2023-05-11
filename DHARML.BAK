@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+    clrscr();
+    char ch;
+    printf("enter a character:");
+    scanf("%c",&ch);
+    if ((ch>='a' && ch <= 'z') ll (ch>='A' && ch<= 'Z')) {
+    printf("the character is an an alphabet.\n");
+   }else if(ch>='0'&& ch <= '9'){
+    printf("the character is a digit.\n");
+   }else{
+    printf("the character is a special character.\n");
+   }
+    return 0;
+   }
